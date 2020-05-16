@@ -1,0 +1,165 @@
+/*Breakpoints*/
+@media (max-width: 960px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+body {
+    font-family: Montserrat, fontawesome;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Section Colors */ 
+.colored-section {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.white-section {
+    background-color: #FFF;
+}
+
+/* Title */ 
+#title .container-fluid {
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+/* Navbar */ 
+.navbar {
+    padding: 0;
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: montserrat;
+    font-weight: light;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    position: absolute;
+    transform: rotate(25deg);
+    right: 30%;
+}
+
+/* big-heading */
+.big-heading {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Features */ 
+#features {
+    position: relative;
+}
+
+.feature {
+    padding: 4.5%;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-icon {
+    color: #EF8172;
+    margin-bottom: 1rem;
+    transition: linear 0.3s;
+}
+
+.feature-icon:hover {
+    color: #FF4C68;
+}
+
+/* Testimonials Carousel */ 
+
+#testimonials {
+    background-color: #EF8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Cards */ 
+#pricing {
+    padding: 100px;
+}
+
+.card-header h3{
+    font-size: 2.5rem;
+}
+
+.pricing-text {
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Footer */ 
+#footer {
+    line-height: 2.5;
+}
+
+
+.social-icon {
+    margin: 20px 10px;
+}
+
